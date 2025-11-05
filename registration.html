@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salon Registration</title>
+  <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+  <div class="container">
+    <h2>Saloon Registration</h2>
+    <form id="registrationForm">
+      <label for="saloonName">Saloon Name</label>
+      <input type="text" id="saloonName" placeholder="Enter saloon name" required>
+
+      <label for="ownerName">Owner’s Name</label>
+      <input type="text" id="ownerName" placeholder="Enter owner's name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Enter email address" required>
+
+      <div class="row">
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" required>
+        </div>
+      </br>
+    </br>
+        <div>
+          <label for="city">City</label>
+          <input type="text" id="city" placeholder="Enter city" required>
+        </div>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="login">
+      Already have an account? <a href="#">Login</a>
+    </div>
+  </div>
+  <script src="registration.js"></script>
+</body>
+</html>
